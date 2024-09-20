@@ -464,7 +464,7 @@
                                     </h3>
                                     <div class="border-b-2 border-dashed my-4 "></div>
                                     <ul id="selected_seat" class="space-y-5">
-                                        <h3 class="text-red-500 text-3xl font-semibold text-center">No Seat Booked</h3>
+                                        <h3 id="default-text" class="text-red-500 text-3xl font-semibold text-center">No Seat Booked</h3>
 
                                     </ul>
                                     <div class="border-b-2 border-dashed my-4 "></div>
@@ -488,7 +488,7 @@
                                         <p>Grand Price</p>
                                         <p>
                                         <span>BDT:</span>
-                                        <span>****</span>
+                                        <span id="grand-price">****</span>
                                         </p>
                                     </div>
                                 </div>
@@ -520,7 +520,7 @@
                                          
                                       </label>
 
-                                      <button onclick="my_modal_1.showModal()" class="btn w-full bg-green-600 text-white mt-5 text-lg uppercase">Next</button>
+                                      <button disabled onclick="my_modal_1.showModal()" class="btn w-full bg-green-600 text-white mt-5 text-lg uppercase">Next</button>
 
                                       <!-- Open the modal using ID.showModal() method -->
  
